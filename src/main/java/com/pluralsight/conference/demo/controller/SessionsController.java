@@ -20,7 +20,6 @@ public class SessionsController {
         return sessionRepository.findAll();
 
     }
-
     @GetMapping
     @RequestMapping("{id}")
     public Session get(@PathVariable Long id){
